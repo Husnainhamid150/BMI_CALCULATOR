@@ -6,3 +6,4 @@ fsc_marks_percentage = (fsc_marks / 1100) * 100
 mdcat_marks_percentage = (mdcat_marks / 200) * 100
 result = (metric_marks_percentage * 0.1) + (fsc_marks_percentage * 0.4) + (mdcat_marks_percentage * 0.5)
 print(round(result, ndigits=3))
+input()
